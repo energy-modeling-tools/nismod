@@ -1,10 +1,13 @@
 - name: GitHub
   icon: bi bi-github
-  url:   https://github.com/FossilFuelRetirementModel/ffrm_python 
+  url:    https://github.com/nismod 
 
-- name: Discord
-  icon: bi bi-discord
-  url: https://forum.u4ria.org/
-
+- name: Youtube
+  icon: bi bi-youtube
+  url: https://www.youtube.com/@opsis-oxford 
+  
+- name: linkedin
+  icon: bi bi-Linkedin
+  url:  https://linkedin.com/company/opsis-oxford 
 
 

@@ -1,115 +1,53 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: Applications
 permalink: /applications/
 ---
-<section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
-  <div class="text-center fade-in-center">
-    <h2 class="alt-h2 mb-4">FFRM Applications</h2>
-  </div>
 
-  <div class="applications-content text-left">
-    <p class="lead mb-4">FFRM is a useful tool for assessing the stranded cost implications that may arise as a country decarbonizes its electricity sector. The model was originally developed by the World Bank to assess stranded cost under various defined scenarios, with its most recent application in exploring the stranded cost implications of decarbonizing India and the Philippines power sector. </p>
+<section class="bg-gray-light py-5 fade-in-center">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h2 mb-4 text-center">Applications of NISMOD</h2>
+    <p class="text-center">‘NISMOD’ is a fundamental building block for a wide range of applications across government, industry, and academia. Several examples include:</p>
 
-    <!--
-     <div class="applications-grid">
-      <div class="application-category">
-        <h3 class="category-title">Governments</h3>
-        <ul class="application-list">
-          <li><a href="https://energypedia.info/wiki/LTEM_-_Energy_Department_of_the_Cyprus_Institute">National Energy and Climate Plan in Cyprus</a></li>
-        </ul>  
-      </div>
+    <h3 class="alt-h3 mt-5">Governments</h3>
+    <p>NISMOD has been used to support national-scale infrastructure planning and resilience assessment in the UK and internationally, helping policymakers evaluate future infrastructure pathways under uncertainty.</p>
 
-      <div class="application-category">
-        <h3 class="category-title">Industry and Think Tanks</h3>
-        <ul class="application-list">
-          <li><a href="https://www.globalccsinstitute.com/wp-content/uploads/2021/10/genzo1123.pdf">Global CCS Institute</a></li>
-        </ul>
-      </div>
+    <h3 class="alt-h3 mt-5">Industry and Think Tanks</h3>
+    <p>International organizations and research consortia use NISMOD to inform infrastructure investment decisions and assess risks and interdependencies between energy, transport, water, and telecommunications systems.</p>
 
-      <div class="application-category">
-        <h3 class="category-title">Academia</h3>
-        <ul class="application-list">
-          <li><a href="https://kth.diva-portal.org/smash/get/diva2:1576316/FULLTEXT01.pdf">Politecnico di Milano – 
-        </ul>
-      </div>
-    </div>
+    <h3 class="alt-h3 mt-5">Academia</h3>
+    <p>Academic researchers employ NISMOD tools to develop and evaluate infrastructure system models that integrate climate change, resilience, and sustainable development perspectives.</p>
+
+    <h3 class="alt-h3 mt-5">Specialist Applications</h3>
+    <ul>
+      <li><a href="https://nismod.github.io/nismod2/" target="_blank">NISMOD2</a> – Integrated system-of-systems model for UK infrastructure planning</li>
+      <li><a href="https://global.infrastructureresilience.org/" target="_blank">GRI Risk Viewer</a> – Global data portal for infrastructure risk and resilience analysis</li>
+      <li><a href="https://github.com/nismod/snkit" target="_blank">snkit</a> – Python library for creating and manipulating spatial network data</li>
+      <li><a href="https://github.com/nismod/snail" target="_blank">snail</a> – Toolkit for infrastructure risk analysis and loss estimation</li>
+    </ul>
   </div>
 </section>
 
- <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
-  <div class="text-center mb-5">
-    <h2 class="alt-h2">Specialist versions of the tool</h2>
-  </div>
+<!-- Recommended Reading Section -->
+<section class="bg-white py-5 fade-in-center">
+  <div class="container-lg p-responsive">
+    <h2 class="alt-h2 mb-4 text-center">Recommended Reading</h2>
+    <p class="text-center text-gray mb-5">Explore key publications that demonstrate NISMOD’s use in infrastructure planning, resilience assessment, and climate risk analysis.</p>
 
-  <div class="slider-wrapper my-5">
-    <div class="arrow arrow-left" onclick="slideTextPrev()">‹</div>
-
-    <div class="slider-container">
-      <div class="slider" id="textSlider">
-        <div class="slide-card">
-          <h3>OSeMOSYS Global</h3>
-          <p><a href="https://osemosys-global.readthedocs.io/en/latest/" target="_blank">Open-source global electricity model</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>GENESYS-MOD</h3>
-          <p><a href="https://git.tu-berlin.de/genesysmod/genesys-mod-public" target="_blank">Modular European decarbonisation model</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>TEMBA</h3>
-          <p><a href="https://zenodo.org/records/3521841" target="_blank">The African electricity model base</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>OSeMBE</h3>
-          <p><a href="https://github.com/HauHe/OSeMBE" target="_blank">Open Source energy Model – Base for Europe</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>SAMBA</h3>
-          <p><a href="http://www.osemosys.org/samba.html" target="_blank">Southern African Model Base for Analysis</a></p>
-        </div>
-      </div>
+    {% for paper in site.data.recommended_reading.recommended_reading %}
+    <div class="recommended-reading-item mb-5">
+      <h3 class="alt-h3 mb-2">
+        <a href="{{ paper.link }}" target="_blank" style="text-decoration: none;">{{ paper.title }}</a>
+      </h3>
+      <p class="text-gray">{{ paper.abstract }}</p>
     </div>
+    {% endfor %}
 
-    <div class="arrow arrow-right" onclick="slideTextNext()">›</div>
-  </div>
-
-  <div class="slider-dots text-center mt-3" id="sliderDots"></div>
-</section>
--->
-
-<section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
-  <div class="recommended-reading">
-    <h2 class="alt-h2 text-center mb-4">Recommended Reading</h2>
-    <p class="text-center mb-5">For a broader analysis of applications and advancements in OSeMOSYS, see the following peer-reviewed publications:</p>
-
-    <div class="publications-list">
-      {% for publication in site.data.publications %}
-      <div class="publication-item mb-4 p-4 border border-gray-200 rounded">
-        <h4 class="publication-title mb-2">
-          <a href="{{ publication.url }}" target="_blank" class="text-decoration-none">
-            {{ publication.title }}
-          </a>
-        </h4>
-        <p class="publication-authors text-muted mb-2">
-          {{ publication.authors }} ({{ publication.year }})
-        </p>
-        <p class="publication-journal mb-2">
-          <em>{{ publication.journal }}</em>
-        </p>
-        <p class="publication-abstract text-justify">
-          {{ publication.abstract }}
-        </p>
-      </div>
-      {% endfor %}
+    <div class="text-center mt-4">
+      <a href="{{ site.data.recommended_reading.google_scholar }}" target="_blank" class="btn btn-outline-primary sky-blue-accent">View All on Google Scholar →</a>
     </div>
-
   </div>
-  
 </section>
 
 <style>
