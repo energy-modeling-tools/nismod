@@ -6,7 +6,7 @@
 # feature for the data you need to update frequently.
 
 # global settings
-title: National Infrastructure Systems Model (NISMOD)
+title: NISMOD
 logo: "/assets/img/NISMOD.png"
 description: "GitHub helps government build software better, together"
 baseurl: "/nismod"
