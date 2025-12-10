@@ -1,6 +1,6 @@
 events:
   - title: "EMP-A 2025 – Addis Ababa, Ethiopia (Online)"
-    image: "/assets/img/EMP/EMPA2025.png"
+    image: "../assets/img/EMP/EMPA2025.png"
     alt: "EMP-A 2025"
     description: "The 3-week training was part of EMP-A 2025. Participants from Nigeria, Ghana, DRC, and South Africa attended online. The NISMOD-CR course was delivered by Silvia Colombo and Tom Russell, covering risk assessment, NISMOD tools, and data visualization."
     outputs:
