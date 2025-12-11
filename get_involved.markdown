@@ -10,6 +10,7 @@ permalink: /contact/
     <h2 class="alt-h2 mb-4 text-center">Get Involved</h2>
 
     <div class="text-center mb-5">
+      {% include forum_cta.html %}
       <a href="https://github.com/nismod" target="_blank" class="btn btn-primary btn-lg mb-3">Visit NISMOD on GitHub →</a>
       <div class="social-links mt-4">
         <a href="https://www.youtube.com/@opsis-oxford" target="_blank" class="mx-2"><img src="/assets/img/youtube-icon.png" width="40" alt="YouTube"></a>
